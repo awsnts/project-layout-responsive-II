@@ -1,5 +1,4 @@
-# project-layout-responsive-II
-# Static Responsive Layout with HTML/CSS
+# Static Responsive Layout  II with HTML/CSS
 
 This project is a recreation of a website’s task page, focused on providing a beautiful and user-friendly experience. The main goal was to style and enhance several elements, ensuring both code clarity and visual appeal. Special attention was given to making the interface intuitive and enjoyable, so users can easily interact with the platform and manage their tasks efficiently.
 
