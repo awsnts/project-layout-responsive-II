@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interno - Modal Criar SubProjeto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <header>
+    <section class="logo">🌐 ACALI</section>
+    <nav>
+      <a href="#">sobre</a>
+      <a href="#">contato</a>
+      <a href="#">login</a>
+    </nav>
+  </header>
+
+  
+  <main>
+    <section class="projeto-container">
+      <section class="projeto-card">
+        <section class="voltar">&larr; outros projetos</section>
+        <section class="barra-progresso">
+          <section class="progresso" style="width: 21%;">21%</section>
+        </section>
+        <h2>Desenvolvimento e Modernização do Frontend para o Sistema Web Open Connect</h2>
+      </section>
+    </section>
+  </main>
+
+  
+  <section class="overlay">
+    <section class="modal">
+      <button class="close-btn">×</button>
+
+      <h2 class="modal-title">
+        Desenvolvimento e Modernização do Frontend para o Sistema Web Open Connect
+      </h2>
+
+      <form>
+        <label for="titulo">Título do SubProjeto:</label>
+        <input type="text" id="titulo" placeholder="descreva aqui..."/>
+
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" placeholder="descreva aqui..."></textarea>
+
+        <section class="membros">
+          <p>Membros:</p>
+
+          <section class="membro">
+            <section class="avatar">
+              <img src="debora.jpeg" alt="Foto de Débora Annies" />
+            </section>
+            <section class="info">
+              <p>Débora Annies</p>
+              <span>12:32 PM, 22 Fevereiro</span>
+            </section>
+            <button class="excluir">🗑️</button>
+          </section>
+
+          <button class="adicionar">+ Adicionar Mais</button>
+        </section>
+
+        <button type="submit" class="criar-btn">Criar</button>
+      </form>
+    </section>
+  </section>
+
+  
+  <footer>
+    <section class="logo-rodape">🌐</section>
+    <p>conectando ideias, ciência e tecnologia.</p>
+  </footer>
+
+</body>
+</html>
